@@ -113,7 +113,7 @@ std::string CKey::getKeyString(Keys_t eKeyIdx) {
         {kAMajor, "A Major"},
         {kAsMajor, "A# Major/Bb Major"},
         {kBMajor, "B Major"},
-
+        
         {kCMinor, "C Minor"},
         {kCsMinor, "C# Minor/Db Minor"},
         {kDMinor, "D Minor"},
@@ -126,7 +126,6 @@ std::string CKey::getKeyString(Keys_t eKeyIdx) {
         {kAMinor, "A Minor"},
         {kAsMinor, "A# Minor/Bb Minor"},
         {kBMinor, "B Minor"},
-
         {kNoKey, "No Chord"}};
 
     return KeyMap.at(eKeyIdx);

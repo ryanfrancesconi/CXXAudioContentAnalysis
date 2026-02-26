@@ -21,7 +21,8 @@ let package = Package(
             name: "AudioContentAnalysis",
             cxxSettings: [
                 .headerSearchPath("include"),
-                .headerSearchPath("Fft"),
+                .headerSearchPath("sndlib"),
+
             ],
 
         )

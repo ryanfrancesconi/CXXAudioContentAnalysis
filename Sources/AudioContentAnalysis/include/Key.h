@@ -28,7 +28,6 @@ class CKey {
         kAMajor,
         kAsMajor,
         kBMajor,
-
         kCMinor,
         kCsMinor,
         kDMinor,
@@ -41,9 +40,7 @@ class CKey {
         kAMinor,
         kAsMinor,
         kBMinor,
-
         kNoKey,
-
         kNumKeys
     };
 
