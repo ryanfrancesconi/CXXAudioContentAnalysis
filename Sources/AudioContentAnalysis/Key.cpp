@@ -113,7 +113,6 @@ std::string CKey::getKeyString(Keys_t eKeyIdx) {
         {kAMajor, "A Major"},
         {kAsMajor, "A# Major/Bb Major"},
         {kBMajor, "B Major"},
-        
         {kCMinor, "C Minor"},
         {kCsMinor, "C# Minor/Db Minor"},
         {kDMinor, "D Minor"},
@@ -155,7 +154,6 @@ CKey::Keys_t CKey::getKeyIdxFromString(std::string sKeyString) {
         {"Bb Major", kAsMajor},
         {"A# Major/Bb Major", kAsMajor},
         {"B Major", kBMajor},
-
         {"C Minor", kCMinor},
         {"C# Minor", kCsMinor},
         {"Db Minor", kCsMinor},
@@ -178,9 +176,10 @@ CKey::Keys_t CKey::getKeyIdxFromString(std::string sKeyString) {
         {"Bb Minor", kAsMinor},
         {"A# Minor/Bb Minor", kAsMinor},
         {"B Minor", kBMinor},
-
         {"No Chord", kNoKey}};
+    
     auto search = KeyMap.find(sKeyString);
+    
     if (search != KeyMap.end())
         return KeyMap.at(sKeyString);
     else
