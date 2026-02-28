@@ -1,11 +1,9 @@
 
+#include "ChordFromBlock.h"
+#include "Chord.h"
+#include "FeatureFromBlock.h"
 #include "Matrix.h"
 #include "Vector.h"
-
-#include "FeatureFromBlock.h"
-
-#include "Chord.h"
-#include "ChordFromBlock.h"
 
 Error_t CChordFromBlockIf::create(CChordFromBlockIf *&pCInstance,
                                   int iMagSpecLength, float fSampleRate) {

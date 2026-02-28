@@ -1,13 +1,11 @@
 
+#include "Feature.h"
 #include "AudioFileIf.h"
+#include "FeatureFromBlock.h"
 #include "Fft.h"
-#include "Util.h"
-
 #include "ToolBlockAudio.h"
 #include "ToolPreProc.h"
-
-#include "Feature.h"
-#include "FeatureFromBlock.h"
+#include "Util.h"
 
 /*! \brief class for computation of a feature from a file
  */

@@ -1,7 +1,6 @@
 
 
 #include <cmath>
-
 #include <map>
 
 #include "AudioFileIf.h"

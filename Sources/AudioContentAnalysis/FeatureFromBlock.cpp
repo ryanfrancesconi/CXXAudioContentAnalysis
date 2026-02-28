@@ -1,13 +1,11 @@
 
+#include "FeatureFromBlock.h"
 #include "Matrix.h"
-#include "Util.h"
-#include "Vector.h"
-
 #include "ToolCcf.h"
 #include "ToolConversion.h"
 #include "ToolLowPass.h"
-
-#include "FeatureFromBlock.h"
+#include "Util.h"
+#include "Vector.h"
 
 const float CFeatureFromBlockIf::m_kfFloatThresh = 1e-30F;
 
